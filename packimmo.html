@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pack1.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+     <!-- Navbar Start -->
+     <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                <div class="icon p-2 me-2">
+                    <img class="img-fluid" src="logo/2.png" alt="Icon" style="width: 50px; height:50px; ;">
+                </div>
+                <h1 class="m-0 text-primary">immobilier</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="homme.html" class="nav-item nav-link active">Home</a>
+                    <a href="presentation.html" class="nav-item nav-link">Presentation</a>
+                    <a href="pack.html" class="nav-item nav-link">Pack</a>
+                    
+                  
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="register.php" class="nav-item nav-link" >cree votre compte</a>
+                        <a href="login.php" class="nav-item nav-link" >connect</a>
+                </div>   
+             
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <a href="#"><h5>annonce immobilier</h5></a>
+        <div>
+            <div>
+                <img src="img/pack1/img21.jpg" alt="" class="image">
+                <div>
+                    <button><img onclick="changeImg(this)" src="img/pack1/img16.jpg" alt=""></button>
+                    <button><img onclick="changeImg(this)" src="img/pack1/img17.jpeg" alt=""></button>
+                    <button><img onclick="changeImg(this)" src="img/pack1/img18.jpg" alt=""></button>
+                    <button><img onclick="changeImg(this)" src="img/pack1/img19.jpg" alt=""></button>
+                    <button><img onclick="changeImg(this)" src="img/pack1/img20.jpg" alt=""></button>
+                </div>
+            </div>
+            <div>
+                <h2>Pack agence immo</h2>
+                <span>
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    
+                   
+                </span>
+                <span> 
+                    <small>PRICE:</small>
+                    <b>500 dhs</b>
+                </span>
+                <p>  20 annonces emmobilier de 500 dhs par mois 
+                    </p>
+                
+                <button class="buy-now-btn"> <a href="login.php">prendre</a></button>
+            </div>
+        </div>
+    </div>
+<script>
+    const image = document.querySelector(".image")
+
+function changeImg(image1){
+    image.src= image1.src;
+}
+
+</script>    
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
